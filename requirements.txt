@@ -2,7 +2,7 @@
 # of appearance. Changing the order has an impact on the overall integration
 # process, which may cause wedges in the gate later.
 
-pbr!=0.7,<1.0,>=0.6
+pbr>=1.1.0
 
 # NOTE(mriedem): pycadf needs to come before Babel because of an uncapped
 # common dependency on pytz and it needs to come before oslo.config because
